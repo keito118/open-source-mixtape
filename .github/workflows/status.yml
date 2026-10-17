@@ -11,7 +11,7 @@ jobs:
     if: github.repository != 'keito118/spotify-playlist-as-code'
     runs-on: ubuntu-latest
     steps:
-      - uses: keito118/spotify-playlist-as-code@feature/github-action
+      - uses: keito118/spotify-playlist-as-code@v1
         with:
           command: status
           spotify-client-id: ${{ secrets.SPOTIFY_CLIENT_ID }}

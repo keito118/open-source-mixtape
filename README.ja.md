@@ -62,7 +62,6 @@ gh repo fork keito118/open-source-mixtape --clone
 cd open-source-mixtape
 git switch -c add-my-song
 echo 'https://open.spotify.com/track/<id>  # Artist - Title' >> playlists/open-source-mixtape.txt
-python -m pac validate          # 手元でのチェック（任意、Python 3.10 以上）
 git commit -am "Add Artist - Title"
 git push -u origin add-my-song
 gh pr create --fill

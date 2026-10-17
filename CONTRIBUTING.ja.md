@@ -4,6 +4,8 @@
 
 Mixtape に曲を追加してくれてありがとうございます！🎶
 
+いちばん簡単なのは、[「🎵 Add a song」の Issue](https://github.com/keito118/open-source-mixtape/issues/new?template=add-song.yml) に Spotify のリンクを貼る方法です。bot がプルリクを代わりに作ります。下のチェックリストは、自分でプルリクを出す場合のものです。
+
 ## プルリクのチェックリスト
 
 - [ ] 1曲1行で、`playlists/open-source-mixtape.txt` の**最後**に追加した

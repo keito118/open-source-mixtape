@@ -26,17 +26,27 @@ Open Source Mixtape は、このリポジトリで管理している共同プレ
 
 ## 曲の追加方法
 
-必要なのは GitHub アカウントだけです。ブラウザだけで完結します。
+必要なのは GitHub アカウントと曲のリンクだけです。
 
 1. **曲のリンクをコピー。** Spotify で曲を開き、**共有 → 曲のリンクをコピー** を選びます。
-2. **プレイリストのファイルを編集。** [`playlists/open-source-mixtape.txt`](./playlists/open-source-mixtape.txt) を開いて ✏️ のアイコンを押します。自分用のコピー（フォーク）は GitHub が自動で作ります。
-3. **ファイルの最後に1行追加。** リンクのあとに `# アーティスト - 曲名` を書きます。
+2. **[「🎵 Add a song」の Issue を作る](https://github.com/keito118/open-source-mixtape/issues/new?template=add-song.yml)** を開いてリンクを貼ります。よければ選んだ理由も書いてください。
+3. **これで完了。** bot が曲を調べてプレイリストのファイルに追加し、プルリクを代わりに作ります。Issue にプルリクのリンクが返ってきます。
+
+曲ではないリンクや、すでに入っている曲の場合は、bot が Issue でそう伝えます。
+
+<details>
+<summary>ファイルを自分で編集する場合</summary>
+
+1. [`playlists/open-source-mixtape.txt`](./playlists/open-source-mixtape.txt) を開いて ✏️ のアイコンを押します。自分用のコピー（フォーク）は GitHub が自動で作ります。
+2. ファイルの**最後**に1行追加します。リンクのあとに `# アーティスト - 曲名` を書きます。
 
    ```text
    https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC  # Rick Astley - Never Gonna Give You Up
    ```
 
-4. **プルリクを作成。** **Commit changes → Propose changes → Create pull request** を押し、テンプレートに曲名、選んだ理由、（よければ）どこから聴いているかを書きます。
+3. **Commit changes → Propose changes → Create pull request** を押し、テンプレートを埋めます。
+
+</details>
 
 <details>
 <summary>コマンドラインでやる場合</summary>
@@ -54,9 +64,9 @@ gh pr create --fill
 
 </details>
 
-## プルリクを出したあとの流れ
+## このあとの流れ
 
-1. **bot がチェック。** *Validate playlists* が、リンクが Spotify の曲か、すでにプレイリストに入っていないかを確認し、変更内容を一覧にします。このリポジトリへの初めてのプルリクでは、管理者が承認してからチェックが始まります。
+1. **bot がチェック。** プルリクで *Validate playlists* が、リンクが Spotify の曲か、すでにプレイリストに入っていないかを確認し、変更内容を一覧にします。自分でプルリクを出した場合、このリポジトリで初めてなら管理者が承認してからチェックが始まります。
 2. **誰かが聴く。** 管理者が曲を聴いて、マージ・コメント・見送りのどれかをします。
 3. **反映。** マージされると *Sync to Spotify* が、Spotify のプレイリストをファイルと同じ内容・同じ順番にそろえます。
 

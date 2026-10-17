@@ -26,17 +26,27 @@ The result is a playlist with a full history: every song has a commit, an author
 
 ## Add a song
 
-You only need a GitHub account. Everything happens in the browser.
+All you need is a GitHub account and a song link.
 
 1. **Copy the song link.** In Spotify, open the song and choose **Share → Copy Song Link**.
-2. **Edit the playlist file.** Open [`playlists/open-source-mixtape.txt`](./playlists/open-source-mixtape.txt) and click the ✏️ pencil icon. GitHub makes your own copy (a fork) automatically.
-3. **Add one line at the end:** the link, then `# Artist - Title`.
+2. **[Open a "🎵 Add a song" issue](https://github.com/keito118/open-source-mixtape/issues/new?template=add-song.yml)** and paste the link. Tell us why you picked it, if you like.
+3. **That's it.** A bot looks the song up, adds it to the playlist file, and opens the pull request for you. It replies on your issue with the link.
+
+If the link isn't a song or the song is already in the playlist, the bot tells you on the issue.
+
+<details>
+<summary>Prefer to edit the file yourself?</summary>
+
+1. Open [`playlists/open-source-mixtape.txt`](./playlists/open-source-mixtape.txt) and click the ✏️ pencil icon. GitHub makes your own copy (a fork) automatically.
+2. Add one line **at the end**: the link, then `# Artist - Title`.
 
    ```text
    https://open.spotify.com/track/4uLU6hMCjMI75M1A2tKUQC  # Rick Astley - Never Gonna Give You Up
    ```
 
-4. **Open the pull request.** Click **Commit changes → Propose changes → Create pull request**, then fill in the short template: which song, why, and (if you like) where you're listening from.
+3. Click **Commit changes → Propose changes → Create pull request**, then fill in the short template.
+
+</details>
 
 <details>
 <summary>Prefer the command line?</summary>
@@ -54,9 +64,9 @@ gh pr create --fill
 
 </details>
 
-## What happens after you open a pull request
+## What happens next
 
-1. **A bot checks it.** The *Validate playlists* check confirms the link is a real Spotify track and isn't already in the playlist, and lists what changed. If this is your first pull request here, the check starts once the maintainer approves it.
+1. **A bot checks it.** The *Validate playlists* check on the pull request confirms the link is a real Spotify track and isn't already in the playlist, and lists what changed. If you opened the pull request yourself and it's your first one here, the check starts once the maintainer approves it.
 2. **Someone listens.** The maintainer plays the song and merges, comments, or politely passes.
 3. **It goes live.** On merge, the *Sync to Spotify* workflow makes the Spotify playlist match the file, in the same order.
 

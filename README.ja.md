@@ -24,6 +24,12 @@ Open Source Mixtape は、このリポジトリで管理している共同プレ
 
 **▶️ [Spotify で聴く](https://open.spotify.com/playlist/6RrEtS1qX6csamOV6ET74Q)**
 
+## いま入っている曲
+
+[![Songs on the playlist right now](https://raw.githubusercontent.com/keito118/open-source-mixtape/tracklist/open-source-mixtape.svg)](https://open.spotify.com/playlist/6RrEtS1qX6csamOV6ET74Q)
+
+曲がマージされるたびに自動で更新されます。
+
 ## 曲の追加方法
 
 必要なのは GitHub アカウントと曲のリンクだけです。

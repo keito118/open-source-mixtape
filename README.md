@@ -24,6 +24,12 @@ The result is a playlist with a full history: every song has a commit, an author
 
 **▶️ [Listen on Spotify](https://open.spotify.com/playlist/6RrEtS1qX6csamOV6ET74Q)**
 
+## On the playlist now
+
+[![Songs on the playlist right now](https://raw.githubusercontent.com/keito118/open-source-mixtape/tracklist/open-source-mixtape.svg)](https://open.spotify.com/playlist/6RrEtS1qX6csamOV6ET74Q)
+
+Updated automatically every time a song is merged.
+
 ## Add a song
 
 All you need is a GitHub account and a song link.

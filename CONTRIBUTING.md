@@ -4,6 +4,8 @@ English | [日本語](./CONTRIBUTING.ja.md)
 
 Thanks for adding to the mixtape! 🎶
 
+The easiest way is to [open a "🎵 Add a song" issue](https://github.com/keito118/open-source-mixtape/issues/new?template=add-song.yml) and paste a Spotify link. A bot opens the pull request for you. The checklist below is for pull requests you open yourself.
+
 ## Pull request checklist
 
 - [ ] One line per song, added at the **end** of `playlists/open-source-mixtape.txt`.

@@ -1,7 +1,11 @@
-## 🎵 What are you adding?
+## 🎵 Song(s)
 
-<!-- e.g. "2 songs for 作業用BGM" -->
+<!-- e.g. "Daft Punk - Digital Love" -->
 
-## Why this song?
+## Why this one?
 
-<!-- One line is enough. Reviewers: listen, then approve or comment. -->
+<!-- One line is enough. What makes it a good fit for the mixtape? -->
+
+## Listening from (optional)
+
+<!-- City or country. It's fun to see where songs come from. 🌍 -->

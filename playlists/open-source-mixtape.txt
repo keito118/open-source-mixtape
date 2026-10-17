@@ -1,0 +1,7 @@
+# @title Open Source Mixtape
+# @playlist 6RrEtS1qX6csamOV6ET74Q
+#
+# One song per line, added at the end. Put "# Artist - Title" after the link.
+# Example:
+#   https://open.spotify.com/track/<id>  # Artist - Title
+

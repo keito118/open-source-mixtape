@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="248" viewBox="0 0 640 248" role="img" aria-label="Open Source Mixtape">
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,'Hiragino Sans','Noto Sans CJK JP',sans-serif}
+.t{font-size:22px;font-weight:700;fill:#fff}.c{font-size:13px;fill:#b3b3b3}
+.n{font-size:14px;fill:#1db954;font-variant-numeric:tabular-nums}
+.s{font-size:15px;font-weight:600;fill:#fff}.a{font-size:15px;fill:#b3b3b3}
+.f{font-size:11px;fill:#6a6a6a}.w{font-size:12px;fill:#6a6a6a}
+</style>
+<rect width="640" height="248" rx="14" fill="#121212"/>
+<text x="24" y="42" class="t">Open Source Mixtape</text>
+<text x="616" y="42" class="c" text-anchor="end">4 tracks</text>
+<line x1="24" y1="60" x2="616" y2="60" stroke="#282828"/>
+<text x="44" y="100" class="n" text-anchor="end">1</text>
+<text x="60" y="100"><tspan class="s">Sweet Child O' Mine</tspan><tspan class="a"> · Guns N' Roses</tspan></text>
+<text x="616" y="100" class="w" text-anchor="end">@keito118</text>
+<text x="44" y="130" class="n" text-anchor="end">2</text>
+<text x="60" y="130"><tspan class="s">Kitsch</tspan><tspan class="a"> · IVE</tspan></text>
+<text x="616" y="130" class="w" text-anchor="end">@keito118</text>
+<text x="44" y="160" class="n" text-anchor="end">3</text>
+<text x="60" y="160"><tspan class="s">Pop Off Pop Off</tspan><tspan class="a"> · KiiiKiii</tspan></text>
+<text x="616" y="160" class="w" text-anchor="end">@keito118</text>
+<text x="44" y="190" class="n" text-anchor="end">4</text>
+<text x="60" y="190"><tspan class="s">7 rings</tspan><tspan class="a"> · Ariana Grande</tspan></text>
+<text x="616" y="190" class="w" text-anchor="end">@keito118</text>
+<text x="24" y="230" class="f">Live from Spotify · updated 2026-10-17 19:26 UTC</text>
+</svg>

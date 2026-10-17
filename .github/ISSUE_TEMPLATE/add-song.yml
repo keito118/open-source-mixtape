@@ -11,12 +11,6 @@ body:
       placeholder: https://open.spotify.com/track/...
     validations:
       required: true
-  - type: input
-    id: playlist
-    attributes:
-      label: Playlist
-      description: Only needed when this repository has more than one playlist. Use the file name in playlists/ (without .txt).
-      placeholder: drive
   - type: textarea
     id: why
     attributes:
